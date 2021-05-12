@@ -1,0 +1,8 @@
+vendor/
+web/core
+web/module/contrib
+web/themes/contrib
+web/profile/contrib
+web/libraries
+style.css
+sites/default/files
