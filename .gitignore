@@ -1,8 +1,10 @@
 vendor/
 web/core
-web/module/contrib
+web/modules/contrib
 web/themes/contrib
 web/profile/contrib
 web/libraries
 style.css
 sites/default/files
+web/sites/default/files/
+web/sites/default/settings.php
