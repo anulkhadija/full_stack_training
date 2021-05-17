@@ -1,0 +1,15 @@
+fst_newsletter.example:
+  path: '/fst-newsletter/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\fst_newsletter\Controller\FstNewsletterController::build'
+  requirements:
+    _permission: 'access content'
+
+fst_newsletter.example.argumented:
+  path: '/fst-newsletter/example/{arg}'
+  defaults:
+    _title: 'Hello World Argumented!!'
+    _controller: '\Drupal\fst_newsletter\Controller\FstNewsletterController::buildArgumented'
+  requirements:
+    _permission: 'access content'

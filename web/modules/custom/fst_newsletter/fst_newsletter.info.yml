@@ -1,0 +1,10 @@
+name: FST Newsletter
+type: module
+description: The description of the module goes here.
+package: Custom
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:link
+  - drupal:views
+
+configure: hello_world.settings

@@ -1,0 +1,11 @@
+name: Layout Build Theme
+core_version_requirement: ^8 || ^9
+type: theme
+base theme: stable
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  footer: Footer
+libraries:
+  - fst_theme/global
