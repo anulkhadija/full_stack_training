@@ -1,0 +1,33 @@
+uuid: 36d3abd2-81ea-447d-bb3e-a2d1ecee9636
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.admin
+  module:
+    - node
+    - system
+  theme:
+    - fst_theme
+id: fst_theme_administration
+theme: fst_theme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:admin'
+settings:
+  id: 'system_menu_block:admin'
+  label: Administration
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      resources: resources
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

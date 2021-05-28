@@ -1,0 +1,20 @@
+uuid: 25bba44c-3729-4282-a76b-a912bfc71133
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fst_theme
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: fst_theme_local_actions
+theme: fst_theme
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

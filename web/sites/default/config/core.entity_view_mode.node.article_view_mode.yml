@@ -1,0 +1,10 @@
+uuid: 4ffc8218-ccd6-4c82-b56e-89c698061db2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.article_view_mode
+label: 'Article view mode'
+targetEntityType: node
+cache: true

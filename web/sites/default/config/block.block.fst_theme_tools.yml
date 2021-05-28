@@ -1,0 +1,33 @@
+uuid: 9747cbe0-bb2d-4319-b8af-3d73c6b0dc09
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - node
+    - system
+  theme:
+    - fst_theme
+id: fst_theme_tools
+theme: fst_theme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      resources: resources
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,44 @@
+uuid: c017bde0-cc04-4578-909d-ee8fc042c109
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.resources.body
+    - field.field.node.resources.field_cover_image
+    - field.field.node.resources.field_file
+    - field.field.node.resources.field_shoulder_text
+    - node.type.resources
+  module:
+    - file_download_link
+    - image
+    - user
+id: node.resources.default
+targetEntityType: node
+bundle: resources
+mode: default
+content:
+  field_cover_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_file:
+    weight: 1
+    label: above
+    settings:
+      link_text: Download
+      new_tab: true
+      force_download: true
+      link_title: ''
+      custom_classes: ''
+    third_party_settings: {  }
+    type: file_download_link
+    region: content
+hidden:
+  body: true
+  field_shoulder_text: true
+  links: true

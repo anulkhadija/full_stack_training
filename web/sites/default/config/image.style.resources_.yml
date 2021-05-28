@@ -1,0 +1,15 @@
+uuid: 1ba3025d-751f-472b-bc38-6f5d6a27497b
+langcode: en
+status: true
+dependencies: {  }
+name: resources_
+label: 'Resources List'
+effects:
+  5ffac440-88f8-430d-a29e-7ce7df478bfe:
+    uuid: 5ffac440-88f8-430d-a29e-7ce7df478bfe
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 180
+      anchor: center-center

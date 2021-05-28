@@ -1,0 +1,12 @@
+features:
+  node_user_picture: false
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+logo:
+  use_default: false
+  path: 'public://cropped-wordpress-training-tea.png'
+favicon:
+  use_default: false
+  path: 'public://cropped-wordpress-training-tea_0.png'
+  mimetype: image/png

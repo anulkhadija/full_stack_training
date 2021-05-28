@@ -1,0 +1,45 @@
+uuid: ba8f4803-59b8-49ac-a5c5-944be0c83081
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.resources.body
+    - field.field.node.resources.field_cover_image
+    - field.field.node.resources.field_file
+    - field.field.node.resources.field_shoulder_text
+    - node.type.resources
+  module:
+    - file_download_link
+    - image
+    - user
+id: node.resources.teaser
+targetEntityType: node
+bundle: resources
+mode: teaser
+content:
+  field_cover_image:
+    type: image
+    weight: 0
+    region: content
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_file:
+    type: file_download_link
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link_text: Download
+      new_tab: true
+      force_download: true
+      link_title: ''
+      custom_classes: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_shoulder_text: true
+  links: true

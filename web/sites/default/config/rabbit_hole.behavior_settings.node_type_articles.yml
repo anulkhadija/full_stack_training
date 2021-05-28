@@ -1,0 +1,14 @@
+uuid: edb7726c-8155-400d-84ae-41cf45eaa292
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.articles
+id: node_type_articles
+entity_type_id: node_type
+entity_id: articles
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

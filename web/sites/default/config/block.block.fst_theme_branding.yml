@@ -1,0 +1,25 @@
+uuid: 6f55371d-82af-45ba-91d3-195dfc0a4709
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fst_theme
+_core:
+  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+id: fst_theme_branding
+theme: fst_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
