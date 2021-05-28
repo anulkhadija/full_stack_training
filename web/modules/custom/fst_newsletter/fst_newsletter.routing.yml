@@ -13,3 +13,11 @@ fst_newsletter.example.argumented:
     _controller: '\Drupal\fst_newsletter\Controller\FstNewsletterController::buildArgumented'
   requirements:
     _permission: 'access content'
+
+fst_newsletter.simple_form:
+  path: '/fst-newsletter/simple-form'
+  defaults:
+    _form:  '\Drupal\fst_newsletter\Form\SimpleForm'
+    _title: 'FST Simple form'
+  requirements:
+    _permission: 'access content'

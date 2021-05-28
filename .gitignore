@@ -8,3 +8,11 @@ style.css
 sites/default/files
 web/sites/default/files/
 web/sites/default/settings.php
+web/sites/default/settings.local.php
+
+# OS generated files
+*.swp
+.DS_Store
+.DS_Store?
+._.DS_Store
+._.DS_Store?
